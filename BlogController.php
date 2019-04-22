@@ -13,7 +13,14 @@ class BlogController extends AbstractController
      */
     public function list()
     {
-        // ...
+        $number = random_int(0, 1000);
+        if ($number > 50)
+        {
+            $number=50;
+        }
+        return $this->render('lucky/number.html.twig', [
+            'number' => $number,
+        ]);
     }
 
     /**
