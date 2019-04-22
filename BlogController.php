@@ -13,6 +13,7 @@ class BlogController extends AbstractController
      */
     public function list()
     {
+        //añadir esto como un hotfix
         $number = random_int(0, 1000);
         if ($number < 50)
         {
