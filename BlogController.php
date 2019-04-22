@@ -14,7 +14,7 @@ class BlogController extends AbstractController
     public function list()
     {
         $number = random_int(0, 1000);
-        if ($number > 50)
+        if ($number < 50)
         {
             $number=50;
         }
