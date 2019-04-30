@@ -25,6 +25,9 @@ class LuckyController extends AbstractController
         }else if ($number>20)
         {
             $number=30;
+        }else if ($number==0)
+        {
+            $number=0;
         }
 
         return $this->render('lucky/number.html.twig', [
