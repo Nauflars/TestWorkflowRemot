@@ -81,7 +81,7 @@ class BlogController extends AbstractController
      *
      * @Route("/blog/{slug}", name="blog_show")
      */
-    public function show5($slug)
+    public function show11($slug)
     {
         //teststtssttsoochw
     }
@@ -91,7 +91,7 @@ class BlogController extends AbstractController
      *
      * @Route("/blog/{slug}", name="blog_show")
      */
-    public function show6($slug)
+    public function show10($slug)
     {
         //nuevo
     }
@@ -102,7 +102,7 @@ class BlogController extends AbstractController
      *
      * @Route("/blog/{slug}", name="blog_show")
      */
-    public function show7($slug)
+    public function show9($slug)
     {
       //Nuevo
     }
