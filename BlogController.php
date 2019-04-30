@@ -93,7 +93,7 @@ class BlogController extends AbstractController
      */
     public function show10($slug)
     {
-        //nuevo
+        //i9alawen
     }
 
 
