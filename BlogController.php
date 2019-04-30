@@ -104,6 +104,6 @@ class BlogController extends AbstractController
      */
     public function show9($slug)
     {
-      //Nuevo
+      //ana usuario 1
     }
 }
