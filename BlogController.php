@@ -83,7 +83,7 @@ class BlogController extends AbstractController
      */
     public function show11($slug)
     {
-        //teststtssttsoochw
+        //ikhrawen
     }
 
     /**
@@ -93,7 +93,7 @@ class BlogController extends AbstractController
      */
     public function show10($slug)
     {
-        //zbouba
+        //i9lawen
     }
 
 
