@@ -116,4 +116,14 @@ class BlogController extends AbstractController
     {
         //ou ana zbiloux 2
     }
+
+    /**
+     * Matches /blog13/*
+     *
+     * @Route("/blog/{slug}", name="blog_show")
+     */
+    public function show15($slug)
+    {
+        //ou ana zbiloux 2
+    }
 }
