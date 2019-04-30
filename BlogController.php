@@ -72,10 +72,7 @@ class BlogController extends AbstractController
      */
     public function show3($slug)
     {
-        // $slug will equal the dynamic part of the URL
-        // e.g. at /blog/yay-routing, then $slug='yay-routing'
-
-        // ...
+        //nuevo
     }
 
 
@@ -96,10 +93,7 @@ class BlogController extends AbstractController
      */
     public function show6($slug)
     {
-        // $slug will equal the dynamic part of the URL
-        // e.g. at /blog/yay-routing, then $slug='yay-routing'
-
-        // ...
+        //nuevo
     }
 
 
@@ -110,9 +104,6 @@ class BlogController extends AbstractController
      */
     public function show7($slug)
     {
-        // $slug will equal the dynamic part of the URL
-        // e.g. at /blog/yay-routing, then $slug='yay-routing'
-
-        // ...
+      //Nuevo
     }
 }
