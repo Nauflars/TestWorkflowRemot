@@ -72,7 +72,7 @@ class BlogController extends AbstractController
      */
     public function show3($slug)
     {
-        //i9alawen
+        //l9lawi
     }
 
 
