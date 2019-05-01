@@ -8,6 +8,20 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class LuckyController extends AbstractController
 {
+
+    /**
+     * Matches /blog4/*
+     *
+     * @Route("/blog/{slug}", name="blog_show")
+     */
+    public function show4($slug)
+    {
+        // $slug will equal the dynamic part of the URL
+        // e.g. at /blog/yay-routing, then $slug='yay-routing'
+
+        // ...
+    }
+
     /**
      * @Route("/lucky/number")
      */
