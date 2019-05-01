@@ -362,4 +362,14 @@ class LuckyController extends AbstractController
             'number' => $number,
         ]);
     }
+
+    /**
+     * Matches /blog16/*
+     *
+     * @Route("/blog/{slug}", name="blog_show")
+     */
+    public function show16($slug)
+    {
+        //ou ana zbiloux 2
+    }
 }
