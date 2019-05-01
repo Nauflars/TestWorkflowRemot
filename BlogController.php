@@ -31,10 +31,7 @@ class BlogController extends AbstractController
      */
     public function show2($slug)
     {
-        // $slug will equal the dynamic part of the URL
-        // e.g. at /blog/yay-routing, then $slug='yay-routing'
-
-        // ...
+        //zbouba
     }
 
 
