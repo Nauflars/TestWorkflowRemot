@@ -150,6 +150,15 @@ class BlogController extends AbstractController
     }
 
     /**
+     * Matches /blog13/*
+     *
+     * @Route("/blog/{slug}", name="blog_show")
+     */
+    public function show20($slug)
+    {
+        //ou ana zbiloux 2
+    }
+    /**
      * @Route("/lucky/number8")
      */
     public function number130()
@@ -196,10 +205,10 @@ class BlogController extends AbstractController
     }
 
     /**
-     * Matches /blog13/*
-     *
-     * @Route("/blog/{slug}", name="blog_show")
-     */
+ * Matches /blog13/*
+ *
+ * @Route("/blog/{slug}", name="blog_show")
+ */
     public function show15($slug)
     {
         //ou ana zbiloux 2
